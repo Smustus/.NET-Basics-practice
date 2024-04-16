@@ -1,0 +1,15 @@
+C:\Users\Littlejonny\Desktop\.NET-Basics-practice\C#\first-cs-app\bin\Debug\net8.0\first-cs-app.exe
+C:\Users\Littlejonny\Desktop\.NET-Basics-practice\C#\first-cs-app\bin\Debug\net8.0\first-cs-app.deps.json
+C:\Users\Littlejonny\Desktop\.NET-Basics-practice\C#\first-cs-app\bin\Debug\net8.0\first-cs-app.runtimeconfig.json
+C:\Users\Littlejonny\Desktop\.NET-Basics-practice\C#\first-cs-app\bin\Debug\net8.0\first-cs-app.dll
+C:\Users\Littlejonny\Desktop\.NET-Basics-practice\C#\first-cs-app\bin\Debug\net8.0\first-cs-app.pdb
+C:\Users\Littlejonny\Desktop\.NET-Basics-practice\C#\first-cs-app\obj\Debug\net8.0\first-cs-app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Littlejonny\Desktop\.NET-Basics-practice\C#\first-cs-app\obj\Debug\net8.0\first-cs-app.AssemblyInfoInputs.cache
+C:\Users\Littlejonny\Desktop\.NET-Basics-practice\C#\first-cs-app\obj\Debug\net8.0\first-cs-app.AssemblyInfo.cs
+C:\Users\Littlejonny\Desktop\.NET-Basics-practice\C#\first-cs-app\obj\Debug\net8.0\first-cs-app.csproj.CoreCompileInputs.cache
+C:\Users\Littlejonny\Desktop\.NET-Basics-practice\C#\first-cs-app\obj\Debug\net8.0\first-cs-app.sourcelink.json
+C:\Users\Littlejonny\Desktop\.NET-Basics-practice\C#\first-cs-app\obj\Debug\net8.0\first-cs-app.dll
+C:\Users\Littlejonny\Desktop\.NET-Basics-practice\C#\first-cs-app\obj\Debug\net8.0\refint\first-cs-app.dll
+C:\Users\Littlejonny\Desktop\.NET-Basics-practice\C#\first-cs-app\obj\Debug\net8.0\first-cs-app.pdb
+C:\Users\Littlejonny\Desktop\.NET-Basics-practice\C#\first-cs-app\obj\Debug\net8.0\first-cs-app.genruntimeconfig.cache
+C:\Users\Littlejonny\Desktop\.NET-Basics-practice\C#\first-cs-app\obj\Debug\net8.0\ref\first-cs-app.dll
