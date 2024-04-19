@@ -21,7 +21,7 @@ namespace api.Controllers
     
         [HttpGet]
         public IActionResult GetAll(){
-            var stocks = _context.Stock.ToList().Select(s => s.ToStockDto()); //Deferred execution, Select (map)
+            var stocks = _context.Stock.ToList().Select(stock => stock.ToStockDto()); //Deferred execution, Select (map)
             return Ok(stocks);
         }
 
@@ -41,6 +41,7 @@ namespace api.Controllers
             var stockModel = stockDto.ToStockFromCreateDTO();
             _context.Stock.Add(stockModel);
             _context.SaveChanges();
+            
             return CreatedAtAction(nameof(GetById), new { id = stockModel.Id }, stockModel.ToStockDto());
         }
 
@@ -60,8 +61,23 @@ namespace api.Controllers
             stock.MarketCap = updateDto.MarketCap;
 
             _context.SaveChanges();
-
+            
             return Ok(stock.ToStockDto());
+        }
+
+        [HttpDelete]
+        [Route("{id}")]
+        public IActionResult Delete([FromRoute] int id){
+            var stock = _context.Stock.FirstOrDefault(stock => stock.Id == id);
+
+            if(stock == null){
+                return NotFound();
+            }
+
+            _context.Stock.Remove(stock);
+            _context.SaveChanges();
+
+            return NoContent();
         }
     }
 }
